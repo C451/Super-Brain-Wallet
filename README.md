@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="416" heigth="416" src="https://github.com/C451/Super-Brain-Wallet/blob/main/assets/big_brain_mf.png" alt="super brain logo">
+  <img width="208" heigth="208" src="https://github.com/C451/Super-Brain-Wallet/blob/main/assets/big_brain_mf.png" alt="super brain logo">
 </div>
 
 <div align="right">
@@ -20,11 +20,11 @@ Use your brain power to the max! This crypto brain wallet combines both visual a
 ```
 
 ### How to use
-
+<br>
 <div align="center">
     <img width="453" heigth="669" src="https://github.com/C451/Super-Brain-Wallet/blob/main/assets/sbw.gif" alt="super brain walkthrough">
 </div>
-
+</br>
 
 1. Go to the app: https://localhost:8888
 2. Disable the network. Turn off your router to be sure!
