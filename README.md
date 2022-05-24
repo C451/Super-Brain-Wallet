@@ -1,24 +1,39 @@
-# New Project
+<div align="center">
+  <img width="208" heigth="208" src="![](assets/big_brain_mf.png)" alt="super brain logo">
+</div>
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+*Check out the big brain on Brett! You're a smart motherfvcker, that's right.*
+<p style="text-align: right;">
+-- Pulp fiction
+</p>
 
-## Available Scripts
+# 👑 SUPER BRAIN WALLET 👑
 
-### npm start
+Use your brain power to the max! This crypto brain wallet combines both visual and language memory of your beautiful brain. First you draw 8x8 pixel art image, then encrypt it with your regular difficult-to-forget password. This way you are getting MORE entropy on every brain cell spent in the process.
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+### :warning: WARNING!
 
-### npm run build
+```diff
+- DON'T USE THIS WALLET YET! It's unfinished, so the exact algo could change.
+```
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+### How to use
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+<img width="453" heigth="669" src="![](assets/sbw.gif)" alt="super brain walkthrough">
 
-### Q: What about Eject?
+1. Go to the app: https://localhost:8888
+2. Disable the network. Turn off your router to be sure!
+3. Draw the damn image. Be fvcking creative, black square wont do the trick. Don't forget to remember it really good.
+4. Use your go-to password. Or any good password, really.
+5. Press *GENERATE* button.
+6. Feed the seed phrase to your hardware wallet (Ledger, Trezor, you know it...)
+7. Go to a local martial art class, coz YOU ARE THE WALLET NOW.
 
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+### Features
+
+* 8x8 Image with 4 bit per pixel (total 256 bits).
+* Classic Apple II Palette.
+* The image XORed with sha-256 hash of the password.
+* Built with Svelte
+* Simple AF 
