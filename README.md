@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="208" heigth="208" src="![](assets/big_brain_mf.png)" alt="super brain logo">
+  <img width="208" heigth="208" src="https://github.com/C451/Super-Brain-Wallet/blob/main/assets/big_brain_mf.png" alt="super brain logo">
 </div>
 
 *Check out the big brain on Brett! You're a smart motherfvcker, that's right.*
@@ -20,7 +20,7 @@ Use your brain power to the max! This crypto brain wallet combines both visual a
 
 ### How to use
 
-<img width="453" heigth="669" src="![](assets/sbw.gif)" alt="super brain walkthrough">
+<img width="453" heigth="669" src="https://github.com/C451/Super-Brain-Wallet/blob/main/assets/sbw.gif" alt="super brain walkthrough">
 
 1. Go to the app: https://localhost:8888
 2. Disable the network. Turn off your router to be sure!
@@ -36,4 +36,4 @@ Use your brain power to the max! This crypto brain wallet combines both visual a
 * Classic Apple II Palette.
 * The image XORed with sha-256 hash of the password.
 * Built with Svelte
-* Simple AF 
+* Simple AF
