@@ -3,17 +3,17 @@ body {
     font-family: sans-serif;
     background: #111112;
     color: white;
-    background-image: url(/assets/SBW4.png);
+    background-image: url(assets/SBW4.png);
     background-size: 20%;
 }
 
 @font-face {
     font-family: Pixel1;
-    src: url(/assets/PixeloidSans.ttf);
+    src: url(assets/PixeloidSans.ttf);
 }
 
 
 @font-face {
     font-family: Pixel2;
-    src: url(/assets/PublicPixel.ttf);
+    src: url(assets/PublicPixel.ttf);
 }

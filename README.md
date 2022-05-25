@@ -12,6 +12,7 @@
 
 Use your brain power to the max! This crypto brain wallet combines both visual and language memory of your beautiful brain. First you draw 8x8 pixel art image, then encrypt it with your regular difficult-to-forget password. This way you are getting MORE entropy on every brain cell spent in the process.
 
+Live demo: https://c451.github.io/sbw-live/
 
 ### :warning: WARNING!
 
@@ -21,7 +22,7 @@ Use your brain power to the max! This crypto brain wallet combines both visual a
 
 ### Install
 
-Clone the repo, run `npm run dev`.
+Clone the repo, run `npm run start`.
 
 ### How to use
 <br>

@@ -5,31 +5,36 @@ const key = fs.readFileSync('./keys/server.key', 'utf-8');
 
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
-  mount: {
-      src: '/',
-      assets: '/assets'
-  },
-  plugins: [
-    /* ... */
-    '@snowpack/plugin-svelte',
-  ],
-  routes: [
-    /* Enable an SPA Fallback in development: */
-    // {"match": "routes", "src": ".*", "dest": "/index.html"},
-  ],
-  optimize: {
-    /* Example: Bundle your final build: */
-    // "bundle": true,
-  },
-  packageOptions: {
-    /* ... */
-  },
-  devOptions: {
-      port: 8888,
-      secure: {cert, key}
-    /* ... */
-  },
-  buildOptions: {
-    /* ... */
-  },
+    mount: {
+        src: '/',
+        assets: '/assets'
+    },
+    plugins: [
+        /* ... */
+        '@snowpack/plugin-svelte',
+    ],
+    routes: [
+        /* Enable an SPA Fallback in development: */
+        // {"match": "routes", "src": ".*", "dest": "/index.html"},
+    ],
+    optimize: {
+        /* Example: Bundle your final build: */
+        bundle: true,
+        minify: true,
+        target: 'es2018',
+    },
+    packageOptions: {
+        /* ... */
+    },
+    devOptions: {
+        port: 8888,
+        secure: {
+            cert,
+            key
+        }
+        /* ... */
+    },
+    buildOptions: {
+        /* ... */
+    },
 };

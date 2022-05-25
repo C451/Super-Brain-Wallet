@@ -1,5 +1,6 @@
 <!-- App.svelte -->
 <script>
+  import.meta.hot
   /* component logic will go here */
   import Grid from "./Grid.svelte"
   import Palette from "./Palette.svelte"
@@ -15,6 +16,7 @@
   let passVisable = true
   let result = {hex:'', seed:[]}
   let showResult = false
+  let dev = __SNOWPACK_ENV__.MODE === 'development'
 
   function onColor(event) {
       color = event.detail.index
@@ -84,9 +86,17 @@ h2 {
 .generate:hover {
     color: #fff;
 }
+.warning {
+    color: #dc0000;
+}
 </style>
 <div class="App">
     <h2>Super Brain Wallet</h2>
+    {#if !dev}
+    <h3 class="warning">
+        DON'T USE THIS WALLET YET! It's unfinished, so the exact algo can change.
+    </h3>
+    {/if}
     <Grid color={color} enc_data={enc_data}
         pv={passVisable}
         on:update={onGrid}/>
