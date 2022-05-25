@@ -19,6 +19,10 @@ Use your brain power to the max! This crypto brain wallet combines both visual a
 - DON'T USE THIS WALLET YET! It's unfinished, so the exact algo can change.
 ```
 
+### Install
+
+Clone the repo, run `npm run dev`.
+
 ### How to use
 <br>
 <div align="center">
